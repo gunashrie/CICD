@@ -5,14 +5,14 @@ terraform {
       version = "~> 5.41.0"
     }
   }
-
+}
 
 
 # Configure the AWS Provider
 provider "aws" {
   region = "ap-southeast-1"
 }
-}
+
 # Public Bucket
 
 resource "aws_s3_bucket" "guna_bucket" {
