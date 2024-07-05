@@ -74,7 +74,7 @@ resource "aws_vpc" "project" {
 resource "aws_subnet" "private_subnet" {
   vpc_id     = aws_vpc.project.id
   cidr_block = "20.0.0.0/24"
-availability_zone="us-wesr-2a"
+availability_zone="ap-southeast-1c"
 tags = {
     Name = "Private Subnet"
   }
