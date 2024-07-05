@@ -16,7 +16,7 @@ provider "aws" {
 # Public Bucket
 
 resource "aws_s3_bucket" "guna_bucket" {
-  bucket = "vpcbucketgun1"
+  bucket = "vpcbucketgun2"
 }
 
 resource "aws_s3_bucket_ownership_controls" "owner" {
